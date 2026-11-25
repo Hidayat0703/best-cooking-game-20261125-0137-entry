@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Warung Kilat — Masak Cepat, Antar Tepat Waktu</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #2e2118;
+        min-height: 100%;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      }
+      canvas {
+        display: block;
+        width: min(100vw, calc(100vh * 1280 / 720));
+        height: auto;
+        background: #e8b48a;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="game" width="1280" height="720"></canvas>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
